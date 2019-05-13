@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">دانلودر</string>
+    <string name="bottom_download_text">دانلود</string>
+    <string name="bottom_history_text">سابقه</string>
+    <string name="bottom_settings_text">تنظیمات</string>
+    <string name="getting">درحال دریافت دسترسی</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="link_txt_hint">آدرس خود را وارد کنید</string>
+    <string name="radio_with_caption">دانلود با کپشن</string>
+    <string name="radio_without_caption">فقط دانلود عکس یا ویدئو</string>
+    <string name="download_btn">دانلود</string>
+    <string name="delete_btn">حذف</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">تنظیمات</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bottom_guid_text">راهنما</string>
+
+</resources>

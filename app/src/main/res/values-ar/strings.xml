@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تحمیل اینستا</string>
+    <string name="bottom_download_text">تحمیل</string>
+    <string name="bottom_history_text">التنزیلات</string>
+    <string name="getting">الحصول على الدخول</string>
+    <string name="bottom_settings_text">ضبط</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="link_txt_hint">إدخال عنوان الموقع...</string>
+    <string name="radio_with_caption">تحمیل مع الشرح</string>
+    <string name="radio_without_caption">مجرد تنزيل الوسائط</string>
+    <string name="download_btn">تحمیل</string>
+    <string name="delete_btn">إزالة</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">ضبط</string>
+    <string name="bottom_guid_text">دلیل</string>
+
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Download"
+        android:checked="true"
+        android:icon="@android:drawable/stat_sys_download_done"
+        android:title="@string/bottom_download_text"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/History"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="@string/bottom_history_text"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/Settings"
+        android:icon="@drawable/settings"
+        android:title="@string/bottom_settings_text"
+        app:showAsAction="always" />
+
+</menu>

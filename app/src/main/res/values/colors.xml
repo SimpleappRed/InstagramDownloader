@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4c68d7</color>
+    <color name="colorPrimaryDark">#bc2a8d</color>
+    <color name="colorLight">#4c68d7</color>
+    
+    <color name="colorAccent">#000080</color>
+    <color name="instagramYellow">#fbad50</color>
+
+
+</resources>
