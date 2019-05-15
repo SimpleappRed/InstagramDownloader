@@ -1,17 +1,12 @@
 package com.example.launcher.downloader.Models;
 
-import android.graphics.Bitmap;
-import android.provider.MediaStore;
-
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
 
 /**
- * @author Ican Bachors
- * @version 1.1
- * Source: https://github.com/bachors/Insta-Downloader
+ * @author Amri Muhammad Karimi
  */
 
 public class Media implements Serializable{

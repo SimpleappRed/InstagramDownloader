@@ -1,22 +1,16 @@
 package com.example.launcher.downloader;
 
-import android.content.Intent;
-import android.content.res.Configuration;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.Environment;
-import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import java.util.Locale;
 
 public class SettingsFragment extends Fragment {
 
@@ -29,28 +23,13 @@ public class SettingsFragment extends Fragment {
         Button persian_btn = view.findViewById(R.id.perisan_btn);
         Button arabic_btn = view.findViewById(R.id.arabic_btn);
         Button english_btn = view.findViewById(R.id.english_btn);
-        location_txt.setText(Environment.getExternalStorageDirectory().getAbsolutePath()+"/InstagramDownloader");
-        persian_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                setLocale("fa");
-            }
-        });
+        String text = Environment.getExternalStorageDirectory().getAbsolutePath() + "/InstagramDownloader";
+        location_txt.setText(text);
+        persian_btn.setOnClickListener(v -> setLocale("fa"));
 
-        english_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                setLocale("en");
-            }
-        });
+        english_btn.setOnClickListener(v -> setLocale("en"));
 
-        arabic_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                setLocale("ar");
-            }
-        });
-
+        arabic_btn.setOnClickListener(v -> setLocale("ar"));
 
         return view;
 
