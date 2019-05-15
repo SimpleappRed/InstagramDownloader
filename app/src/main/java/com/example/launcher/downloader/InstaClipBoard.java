@@ -4,16 +4,8 @@ import android.app.Service;
 import android.content.ActivityNotFoundException;
 import android.content.ClipData;
 import android.content.ClipboardManager;
-import android.content.Context;
 import android.content.Intent;
 import android.os.IBinder;
-import android.widget.Toast;
-
-/**
- * @author Ican Bachors
- * @version 1.1
- * Source: https://github.com/bachors/Insta-Downloader
- */
 
 public class InstaClipBoard extends Service {
 

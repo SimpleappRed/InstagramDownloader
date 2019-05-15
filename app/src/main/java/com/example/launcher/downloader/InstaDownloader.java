@@ -165,7 +165,7 @@ public class InstaDownloader {
 
     private void Download_Store(Media sent_media) {
         File root = Environment.getExternalStorageDirectory();
-        String folder_main = "InstagramDownloader";
+        String folder_main = "instagramDownloader";
         File f = new File(Environment.getExternalStorageDirectory(), folder_main);
         if (!f.exists()) {
             Log.i("access?", "built");
