@@ -25,11 +25,26 @@ public class SettingsFragment extends Fragment {
         Button english_btn = view.findViewById(R.id.english_btn);
         String text = Environment.getExternalStorageDirectory().getAbsolutePath() + "/InstagramDownloader";
         location_txt.setText(text);
-        persian_btn.setOnClickListener(v -> setLocale("fa"));
+        persian_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setLocale("fa");
+            }
+        });
 
-        english_btn.setOnClickListener(v -> setLocale("en"));
+        english_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setLocale("en");
+            }
+        });
 
-        arabic_btn.setOnClickListener(v -> setLocale("ar"));
+        arabic_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setLocale("ar");
+            }
+        });
 
         return view;
 
